@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Computational Model of Diffusion</title>
+    <link href="diffusion.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div id="buttons">
+      <button id="startStopButton" onclick="startStop();">Start</button>
+      <button id="stepButton" onclick="step();">Step</button>
+      <button onclick="reset();">Reset</button>
+      <select id="sizeSelect" onchange="resize();">
+        <option selected>Small (8x16)</option>
+        <option>Medium (16x32)</option>
+        <option>Large (32x64)</option>
+        <option>Huge (64x128)</option>
+      </select>
+    </div>
+    <div id="cells"></div>
+    <div>Time: <div id="time"></div></div>
+    <div>Overall Average: <div id="average"></div></div>
+    <script src="diffusion.js"></script>
+  </body>
+</html>

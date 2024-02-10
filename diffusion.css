@@ -1,0 +1,33 @@
+#buttons {
+  margin-bottom: 5px;
+}
+
+#cells {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  display: inline-block;
+  position: relative;
+}
+
+#loading {
+  position: absolute;
+  left: 240px;
+  top: 112px;
+}
+
+.row {
+  font-size: 0;
+  margin: 0;
+}
+
+.cell {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  display: inline-block;
+  margin: 0;
+}
+
+#time,
+#average {
+  display: inline-block;
+}
